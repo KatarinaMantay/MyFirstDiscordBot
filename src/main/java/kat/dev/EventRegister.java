@@ -10,6 +10,7 @@ public class EventRegister {
         jda.addEventListener(new NewMemberJoinEvent());
         jda.addEventListener(new OnStartup());
         jda.addEventListener(new LoveYouEvent());
+        jda.addEventListener(new GoodMorningEvent());
     }
 
 }
