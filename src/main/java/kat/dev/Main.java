@@ -6,9 +6,7 @@ import com.google.gson.JsonIOException;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.requests.GatewayIntent;
-
 import javax.security.auth.login.LoginException;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -16,6 +14,7 @@ import java.io.IOException;
 import static kat.dev.EventRegister.registerEvents;
 
 public class Main {
+
     public static void main(String[] args) throws LoginException, FileNotFoundException {
 
         Gson gson = new Gson();
