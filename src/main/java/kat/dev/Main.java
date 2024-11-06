@@ -1,6 +1,5 @@
 package kat.dev;
 
-
 import com.google.gson.Gson;
 import com.google.gson.JsonIOException;
 import net.dv8tion.jda.api.JDA;
